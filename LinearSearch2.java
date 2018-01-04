@@ -20,20 +20,20 @@ public class LinearSearch2 {
             //Add values to the array
             System.out.print("Enter in a value to the array: ");
             array[i] = input.nextInt();//Implement the linear search
-        }
-        for (int index = 0; index < size; index++) {
-            //search through the array
-            if (array[index] == searchKey) {
-                //need to return index
-                System.out.printf("Index is %d\n", index);
+            if(array[i] == searchKey){
+                System.out.printf("Index is %d\n", i);
 
             }
         }
+       
         System.out.printf("The array has values: %s\n", Arrays.toString(array));
         System.out.printf("Search key returned is: %d\n", searchKey);
 
-    }
+            }
+        }
 
 
-    }
+
+
+
 

@@ -16,23 +16,34 @@ public class Employee {
         montlySalary = monthlysalary;
     }
     //Need setter/getter methods for each variable
+    //REQUIRES: firstname be of type String
+    //MODIFIES: this
+    //EFFECTS: set firstName to value entered by user.
     public void setFirstName(String firstname) {
         firstName = firstname;
     }
+    //REQUIRES: lastname be of type String
+    //MODIFIES: this
+    //EFFECTS: sets lastName to be lastname entered by user.
     public void setLastName(String lastname) {
         lastName = lastname;
     }
+    //REQUIRES: monthlysalary be of type double
+    //MODIFIES: this
+    //EFFECTS: sets montlySalary to monthlysalary(value entered by user)
     public void setMontlySalary(double monthlysalary) {
 
 
                 montlySalary = monthlysalary;
     }
-
+//EFFECTS: returns monthlysalary
     public double getMontlySalary() {
         return montlySalary;
     }
+    //EFFECTS: returns the firstname
     public String getFirstName(){
         return firstName;}
+    //EFFECTS: returns last name
     public String getLastName(){
         return lastName;}
 
